@@ -1,0 +1,29 @@
+.task-counter-box {
+    width: 250px; /* Adjust the width as needed */
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-counter {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .completed-tasks,
+  .total-tasks {
+    text-align: center;
+  }
+  
+  .number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3498db; /* Completed tasks number color */
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #fff; /* Label text color (white) */
+  }
+  

@@ -1,0 +1,74 @@
+input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 5em;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #333; /* Dark background for the input */
+  color: white;
+  font-size: 16px;
+}
+input:hover{
+  background-color: #222;
+
+}
+
+button {
+  background-color: red; /* Green button color */
+  width: 85%;
+  color: #333;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-left: 06em;
+}
+button:hover {
+  background-color: #ffbb00; /* Button color on hover */
+  transition: background-color 0.5s; /* Add transition for smooth color change */
+
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+
+}
+
+/* Apply styling to the input with class "date" */
+input.date {
+  width: 26.7%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 1em;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #333; /* Dark background for the input */
+  color: white;
+  font-size: 16px;
+}
+
+/* Style the date picker icon for the input with class "date" */
+input.date::-webkit-calendar-picker-indicator {
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Adjust the date picker appearance on different browsers */
+input.date::-webkit-inner-spin-button,
+input.date::-webkit-clear-button {
+  display: none;
+}
+
+/* Add a hover effect to the input with class "date" */
+input.date:hover {
+  background-color: #222;
+}
+
+/* Add focus styles to the input with class "date" */
+input.date:focus {
+  background-color: #111;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
